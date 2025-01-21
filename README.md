@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 # Restaurant Finder
 
-Aplikasi pencarian restoran menggunakan ReactJS yang memungkinkan pengguna mencari restoran berdasarkan kategori, harga, dan jam buka. Aplikasi ini menggunakan API untuk menampilkan data restoran,, Saya menggunakan API dari MockAPI'https://mockapi.io/projects/678fd07b49875e5a1a937758'
+Aplikasi pencarian restoran menggunakan ReactJS yang memungkinkan pengguna mencari restoran berdasarkan kategori, harga, dan jam buka. Aplikasi ini menggunakan API untuk menampilkan data restoran,, Saya menggunakan API dari MockAPI'https://678fd07b49875e5a1a937757.mockapi.io/api/restaurant/restaurants'
 
 ## Versi
 
