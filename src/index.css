@@ -1,0 +1,100 @@
+.homepage {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.filters button,
+.filters select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #e0e0e0;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 16px;
+  width: 100%;
+}
+
+.restaurant-card {
+  flex: 0 1 calc(20% - 16px);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: auto; /* Menjaga proporsi gambar */
+  max-height: 50px; /* Membatasi tinggi gambar maksimal menjadi 50px */
+  object-fit: cover; /* Agar gambar mengisi kotak dengan proporsi yang benar tanpa merusak bentuk */
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+
+
+.restaurant-card h4 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+/* @media (max-width: 1200px) {
+  .restaurant-card {
+    flex: 0 1 calc(25% - 16px);
+  }
+}
+
+@media (max-width: 900px) {
+  .restaurant-card {
+    flex: 0 1 calc(33.33% - 16px);
+  }
+}
+
+@media (max-width: 600px) {
+  .restaurant-card {
+    flex: 0 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 400px) {
+  .restaurant-card {
+    flex: 0 1 100%;
+  }
+} */
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.fa-star {
+  font-size: 16px;
+}
