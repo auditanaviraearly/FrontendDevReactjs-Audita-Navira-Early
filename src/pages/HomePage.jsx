@@ -90,8 +90,10 @@ const HomePage = () => {
           <option value="low">Low</option>
           <option value="high">High</option>
         </select>
+        
         {/* Categories Filter Buttons */}
         <button onClick={() => handleCategoryClick("categories")}>Categories</button>
+
         {/* Add more categories as needed */}
         <button onClick={handleClearAll}>Clear All</button>
       </div>

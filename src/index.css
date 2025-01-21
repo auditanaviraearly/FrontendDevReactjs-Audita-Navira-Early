@@ -59,7 +59,7 @@
   margin: 8px 0;
 }
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .restaurant-card {
     flex: 0 1 calc(25% - 16px);
   }
@@ -81,7 +81,7 @@
   .restaurant-card {
     flex: 0 1 100%;
   }
-} */
+}
 
 .load-more {
   display: block;
